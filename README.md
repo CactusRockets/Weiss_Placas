@@ -6,7 +6,7 @@ Placa de acionamento de iluminação desenvolvida em **KiCad**, responsável por
 
 O circuito é alimentado externamente via um conector **JST XH de 2 vias**, que entrega +3.3V e GND à placa. Essa alimentação passa por um **push-button (SW1)**, que atua como chave liga/desliga geral do circuito. A partir do botão, a alimentação se divide em **dois ramos em paralelo**, cada um composto por um resistor limitador de corrente em série com um LED de alta potência:
 
-![Layout da PCB](img/pcb_layout.png)
+![Layout da PCB](img/pcb_layoult.png)
 
 
 Ou seja: quando o botão é pressionado (ou travado, dependendo do tipo de chave utilizada), o circuito fecha e os dois LEDs acendem simultaneamente. Cada LED possui seu próprio resistor, de forma que o brilho e a corrente de cada um são definidos de forma independente — isso evita que uma eventual diferença entre os dois LEDs (tensão direta, tolerância) afete o outro ramo, como aconteceria se estivessem em paralelo direto sob um único resistor.
