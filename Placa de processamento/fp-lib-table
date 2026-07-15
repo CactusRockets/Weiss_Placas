@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CRD") (type "KiCad") (uri "${KIPRJMOD}/BibliotecasCRD-KiCad-main/Bibliotecas/CRD.pretty") (options "") (descr ""))
+	(lib (name "Weiss") (type "KiCad") (uri "${KIPRJMOD}/Weiss.pretty") (options "") (descr ""))
+	(lib (name "ESP32-DEVKITV1") (type "KiCad") (uri "${KIPRJMOD}/BibliotecasCRD-KiCad-main/Bibliotecas/ESP32-DEVKITV1.pretty") (options "") (descr ""))
+	(lib (name "esp32") (type "KiCad") (uri "${KIPRJMOD}/BibliotecasCRD-KiCad-main/Bibliotecas/esp32.pretty") (options "") (descr ""))
+)

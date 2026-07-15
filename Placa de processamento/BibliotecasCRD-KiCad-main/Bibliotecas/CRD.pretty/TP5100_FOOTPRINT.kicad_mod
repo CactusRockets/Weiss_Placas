@@ -1,0 +1,143 @@
+(footprint "TP5100_FOOTPRINT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "0d94aa03-a8eb-4989-b22d-34fd3b71e613")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e685e378-d3cb-4b0e-8515-948451947dea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e1a0a3-959b-4a01-aebe-80a077ecc1bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1e2aede-ed8f-42fd-bb3b-d63255ef9780")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -13 -6.27)
+		(end 12 -6.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1698533d-b748-48d7-a876-fe1b61855730")
+	)
+	(fp_line
+		(start -13 11)
+		(end -13 -6.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78a94585-b7e0-45ee-a312-c02514d58a66")
+	)
+	(fp_line
+		(start 12 -6.27)
+		(end 12 11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "812e3cb8-dbf1-4805-866f-9a7e588901ad")
+	)
+	(fp_line
+		(start 12 11)
+		(end -13 11)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "796f4b60-afad-4795-97e4-c28b225644c5")
+	)
+	(fp_text user "TP5100"
+		(at -3.366 3.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3105fe6b-d020-45a4-86d9-6aacb0d967c6")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "VIN+" thru_hole oval
+		(at -11.365 9.523)
+		(size 2.216 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4c07cd45-ec53-43b6-a5f4-c5c7f367694d")
+	)
+	(pad "VIN-" thru_hole oval
+		(at -11.492 -4.492)
+		(size 2.216 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5783b5bc-3488-4aa9-ac58-6c44a93f5401")
+	)
+	(pad "VOUT+" thru_hole oval
+		(at 10.175 9.556)
+		(size 2.216 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "1bf39a9c-8c5e-480e-9dea-c1ca37ff1d22")
+	)
+	(pad "VOUT-" thru_hole oval
+		(at 10.396 -4.492)
+		(size 2.216 1.108)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3e109f93-64c9-4e82-be77-847af81c501f")
+	)
+	(embedded_fonts no)
+)

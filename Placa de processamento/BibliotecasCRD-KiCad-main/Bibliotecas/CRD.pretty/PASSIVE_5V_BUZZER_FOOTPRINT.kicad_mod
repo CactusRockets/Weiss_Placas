@@ -1,0 +1,98 @@
+(footprint "PASSIVE_5V_BUZZER_FOOTPRINT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c595adda-ee67-4241-a036-a9ce9856f19e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PASSIVE_5V_BUZZER_FOOTPRINT"
+		(at 0 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e501266a-3586-44f9-848e-02d98642441f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fb66ee4-28b0-43d4-81d6-dffbec3bbd64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7ea31ae-bcbe-4ec2-ae0e-af8890d73e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bc48ce69-26bc-4f87-8b7a-c9eeacedf1c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ed8cbd7-d73b-4839-823a-d0feb3cec475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.8 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bcacb22-aa14-4a75-ac35-7af2f2914c61")
+	)
+	(pad "2" thru_hole circle
+		(at -3.8 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf2f477a-d935-4efc-a279-0f4e888ec215")
+	)
+	(embedded_fonts no)
+)
