@@ -1140,12 +1140,6 @@
 		)
 	)
 	(junction
-		(at 203.2 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb55b93-3431-4122-82c5-1c13add6759e")
-	)
-	(junction
 		(at 222.25 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1165,16 +1159,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 91.44) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0333af19-76f8-43ee-8263-e9386580c2f5")
-	)
-	(wire
-		(pts
 			(xy 203.2 91.44) (xy 210.82 91.44)
 		)
 		(stroke
@@ -1182,6 +1166,16 @@
 			(type default)
 		)
 		(uuid "0e8b340d-1256-49d4-a23a-2215b0c43466")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1881a657-4e2e-4d28-b6a5-f6577239d4d1")
 	)
 	(wire
 		(pts
@@ -1237,6 +1231,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe66ab7-c479-4917-b760-850a52652638")
+	)
+	(wire
+		(pts
 			(xy 219.71 88.9) (xy 219.71 91.44)
 		)
 		(stroke
@@ -1245,6 +1249,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "45357abe-bdc1-457b-8c58-a152015efc20")
+	)
+	(wire
+		(pts
+			(xy 203.2 93.98) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c9ba8a-e8e3-48e3-b6ac-743e9a4b0f0f")
 	)
 	(wire
 		(pts
@@ -1259,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 187.96 99.06)
+			(xy 187.96 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1289,16 +1303,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 93.98) (xy 193.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8874dd-2fed-4945-abc8-00dddb97c63e")
-	)
-	(wire
-		(pts
 			(xy 180.34 88.9) (xy 176.53 88.9)
 		)
 		(stroke
@@ -1306,26 +1310,6 @@
 			(type default)
 		)
 		(uuid "cbfad5ba-bff5-4f94-ba71-c7cfc1146288")
-	)
-	(wire
-		(pts
-			(xy 193.04 88.9) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d66baa4f-7f01-4bee-bde3-f0cd26469837")
-	)
-	(wire
-		(pts
-			(xy 203.2 91.44) (xy 203.2 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff89dda9-9385-44b1-b319-1c2c8e4313c5")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
