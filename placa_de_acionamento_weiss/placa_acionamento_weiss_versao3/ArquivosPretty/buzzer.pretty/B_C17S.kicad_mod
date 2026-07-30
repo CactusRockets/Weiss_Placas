@@ -1,0 +1,143 @@
+(footprint "B_C17S"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "BUZZER")
+	(property "Reference" "REF**"
+		(at -12.573 -2.921 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2d9d8a8-0c48-4fd1-8168-df8b70b73e3d")
+		(effects
+			(font
+				(size 1.6002 1.6002)
+				(thickness 0.1778)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "B_C17S"
+		(at -3.81 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1d75b918-07ce-4e5a-b8a4-e55a843af960")
+		(effects
+			(font
+				(size 1.6002 1.6002)
+				(thickness 0.1778)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c906d80-f58d-459f-92a2-18cbd52a22d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5803365f-6ac2-4b4b-a7f4-fd690f663c25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -12.573 -2.54)
+		(end -12.573 6.096)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d18da89a-151a-4b6b-a16c-dbba0f0f22e0")
+	)
+	(fp_line
+		(start -12.573 -2.54)
+		(end 12.573 -2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c649b0a3-a3c7-4d4d-b2ed-19e0135e3412")
+	)
+	(fp_line
+		(start -12.573 6.096)
+		(end 12.573 6.096)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d698165-98f4-47c2-84ef-6fa57d3424fd")
+	)
+	(fp_line
+		(start -12.065 -2.286)
+		(end -12.065 5.842)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "763398b9-a12a-4d35-a6b4-f4aed3fa0f9b")
+	)
+	(fp_line
+		(start 12.065 -2.286)
+		(end 12.065 5.842)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "266eb6fb-f03c-40fd-886a-3fb037651908")
+	)
+	(fp_line
+		(start 12.573 6.096)
+		(end 12.573 -2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c56d3944-4464-4ecb-8135-53c704808472")
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.0038 0)
+		(size 2.54 2.54)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "34e1e0fa-7fad-4d8c-8b08-00f61ae54cdc")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.0038 0)
+		(size 2.54 2.54)
+		(drill 1.3208)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d0df0272-f3c8-4feb-addf-aff74ae8b123")
+	)
+	(embedded_fonts no)
+)

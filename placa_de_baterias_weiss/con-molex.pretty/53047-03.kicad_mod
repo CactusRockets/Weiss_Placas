@@ -1,0 +1,249 @@
+(footprint "53047-03"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1.25mm Pitch PicoBlade™ Wire-to-Board Header, Vertical, with Friction Lock, 3 Circuits\n\nDatasheet ")
+	(property "Reference" "REF**"
+		(at -2.5 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4df2daf4-676f-46c6-8bf2-42acbfccb02f")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "53047-03"
+		(at -2 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e490675-1bc1-44fe-845f-bdc01f5fff49")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03a12f1b-4734-49de-86c7-59ca6c1631a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3083d3d3-4cd4-43ed-9e48-48f093ff2ffd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.65 -1.5)
+		(end -2.65 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c325f8bc-16a3-4df4-91b5-67d11571f21f")
+	)
+	(fp_line
+		(start -2.65 1.5)
+		(end 2.65 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36e4ff53-d25e-4a03-bc0d-560b862157e1")
+	)
+	(fp_line
+		(start -2.625 -0.375)
+		(end -2.25 -0.375)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14aadc58-6891-42ac-aefa-201d4110b4aa")
+	)
+	(fp_line
+		(start -2.625 0.25)
+		(end -2.25 0.25)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e803f69-606f-4938-b515-ba9e170755b2")
+	)
+	(fp_line
+		(start -2.25 -1.125)
+		(end -2.5 -1.375)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2312493-d2e0-4f34-85a6-66751cade456")
+	)
+	(fp_line
+		(start -2.25 -1.125)
+		(end 2.25 -1.125)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17ae5276-a5ea-4f0c-a13c-1d3129152094")
+	)
+	(fp_line
+		(start -2.25 -0.375)
+		(end -2.25 -1.125)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2e0696a-b275-43f6-a05f-0e922ba60984")
+	)
+	(fp_line
+		(start -2.25 0.25)
+		(end -2.25 1.25)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4aff8f29-8cdf-4bf1-9d07-de7240076feb")
+	)
+	(fp_line
+		(start 2.25 -1.125)
+		(end 2.25 -0.375)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bc10d93-ecf3-4702-a631-d46787b46863")
+	)
+	(fp_line
+		(start 2.25 -1.125)
+		(end 2.5 -1.375)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac1a382b-9e29-440f-bac6-d466cacc8d91")
+	)
+	(fp_line
+		(start 2.25 -0.375)
+		(end 2.625 -0.375)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a15cca9-7734-4f8f-babb-c419a6734dfd")
+	)
+	(fp_line
+		(start 2.25 0.25)
+		(end 2.25 1.25)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9a20653-18e3-47ae-95e6-c50dd7643fe1")
+	)
+	(fp_line
+		(start 2.25 0.25)
+		(end 2.625 0.25)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7473d55e-da0b-47a5-84d4-bc38c48fcf87")
+	)
+	(fp_line
+		(start 2.65 -1.5)
+		(end -2.65 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac9d3a88-41e1-4704-8104-d3c4adeb4dc5")
+	)
+	(fp_line
+		(start 2.65 1.5)
+		(end 2.65 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53028272-1a7b-4675-af10-1c3e46620103")
+	)
+	(fp_poly
+		(pts
+			(xy -2.625 1.5) (xy 2.625 1.5) (xy 2.625 1.125) (xy -2.625 1.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "51cef3f3-0791-40e9-a99f-b7f122a7c218")
+	)
+	(pad "1" thru_hole oval
+		(at 1.25 -0.45 90)
+		(size 1.3968 0.6984)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "21ce56a4-ec34-4066-9875-71bf4d33971b")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -0.45 90)
+		(size 1.3968 0.6984)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e7d2161e-07ee-4d00-8045-ef77db657314")
+	)
+	(pad "3" thru_hole oval
+		(at -1.25 -0.45 90)
+		(size 1.3968 0.6984)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4413589b-d929-4022-be58-775566b963e0")
+	)
+	(embedded_fonts no)
+)

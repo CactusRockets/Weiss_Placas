@@ -1,0 +1,196 @@
+(footprint "87758-0216"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.00mm Pitch Milli-Grid™ Header, Through Hole, Vertical, 2 Circuits, 0.38µm Gold (Au) Selective Plating, Pocket Tray Packaging, Lead-Free\n\nDatasheet ")
+	(property "Reference" "REF**"
+		(at -0.62 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "61fd30a7-59de-4002-bc92-24d1b0960829")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "87758-0216"
+		(at -0.62 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e1bd353-7952-4886-9a4b-8ca1b730a7c3")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5729da2-81e6-4d3a-a31e-f77007398bd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88651546-5d6a-45a4-92a4-334f4b10619b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.85 -1.9)
+		(end -0.85 -0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc95f484-7345-49d3-afe8-3f6ab8063620")
+	)
+	(fp_line
+		(start -0.85 0.4)
+		(end -0.85 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99981e8f-995e-46da-b563-180cc57a8be3")
+	)
+	(fp_line
+		(start -0.85 1.9)
+		(end 0.85 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e635bc0f-41e2-4b01-8e24-01a7af8bc516")
+	)
+	(fp_line
+		(start 0.85 -1.9)
+		(end -0.85 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "047dc667-4f02-4044-9ce0-f0107b7a2933")
+	)
+	(fp_line
+		(start 0.85 -0.4)
+		(end 0.85 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dedf31a-2a3e-4913-9ac6-a612bae06c0d")
+	)
+	(fp_line
+		(start 0.85 1.9)
+		(end 0.85 0.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0709b092-249a-4721-b2e3-f344cca26708")
+	)
+	(fp_arc
+		(start -0.85 -0.4)
+		(mid -0.597168 -0.000001)
+		(end -0.849998 0.399999)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71dd8ed9-477e-4a39-a826-a83517967d10")
+	)
+	(fp_arc
+		(start 0.85 0.4)
+		(mid 0.597168 0.000001)
+		(end 0.849998 -0.399999)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b419dfc8-a883-4cda-be6b-788029a53de8")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 -0.75) (xy 0.25 -0.75) (xy 0.25 -1.25) (xy -0.25 -1.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d6255273-9c2f-4cc9-8aa6-f29b38882c99")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 1.25) (xy 0.25 1.25) (xy 0.25 0.75) (xy -0.25 0.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8c025eda-1ca4-4223-b8dd-c7b5dfa2a223")
+	)
+	(fp_text user "1"
+		(at -0.65 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f86c8ced-5abb-42cd-af6d-8f721bfffc91")
+		(effects
+			(font
+				(size 0.280416 0.280416)
+				(thickness 0.024384)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 1)
+		(size 1.27 1.27)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "102cd5e8-89cb-4594-af84-37c50aa6d6ed")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1)
+		(size 1.27 1.27)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "361b071d-7e93-417e-92b0-8a7508623573")
+	)
+	(embedded_fonts no)
+)

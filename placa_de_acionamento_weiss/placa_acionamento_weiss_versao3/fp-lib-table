@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CRD") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/CRD.pretty/") (options "") (descr ""))
+	(lib (name "buzzer") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/buzzer.pretty/") (options "") (descr ""))
+	(lib (name "optocoupler") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/optocoupler.pretty/") (options "") (descr ""))
+	(lib (name "supply1") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/supply1.pretty/") (options "") (descr ""))
+	(lib (name "transistor-fet") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/transistor-fet.pretty/") (options "") (descr ""))
+)

@@ -1,0 +1,100 @@
+(footprint "EFBRD24C411"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Piezoelectric Acoustic Transducer\n\nSource: Panbasonic .. 2SC1685.pdf")
+	(property "Reference" "REF**"
+		(at -3.175 -3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "001c8410-4afb-449e-9251-e35bc32feaa1")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "EFBRD24C411"
+		(at -3.81 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71946e31-312c-405c-a447-307f3adb4df9")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9053f3d8-89e5-419d-9350-c39d6261ba2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84de3ba9-bb02-40e8-a20d-b65176fdfe08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 11.9 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd55dbed-7eb3-487f-8796-12ace14c7a75")
+	)
+	(fp_poly
+		(pts
+			(xy 10.675 0.8) (xy 11.85 0.8) (xy 11.85 -0.8) (xy 10.675 -0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c444f5ba-2e05-487b-bcd4-510328d2fbc7")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.6764 1.6764)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0a409b89-ba29-4924-b894-55af2cda7c6b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6764 1.6764)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "932e0421-b2a1-487b-a2f9-86508a9a47a5")
+	)
+	(embedded_fonts no)
+)

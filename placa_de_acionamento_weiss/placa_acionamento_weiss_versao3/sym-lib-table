@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Esquema-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/Esquema-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "CRD") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/CRD.kicad_sym") (options "") (descr ""))
+	(lib (name "buzzer") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/buzzer.kicad_sym") (options "") (descr ""))
+	(lib (name "optocoupler") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/optocoupler.kicad_sym") (options "") (descr ""))
+	(lib (name "supply1") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/supply1.kicad_sym") (options "") (descr ""))
+	(lib (name "transistor-fet") (type "KiCad") (uri "${KIPRJMOD}/ArquivosSym/transistor-fet.kicad_sym") (options "") (descr ""))
+)

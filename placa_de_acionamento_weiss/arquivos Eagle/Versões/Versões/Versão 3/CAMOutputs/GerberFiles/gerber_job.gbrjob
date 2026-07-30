@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2025-10-16T21:58:32Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Esquema"
+        },
+        "Owner": "Daniel Alencar <daniel.apcarvalho@discente.univasf.edu.br>",
+        "Size": {
+            "X": 69.83,
+            "Y": 58.471
+        }
+    }
+}

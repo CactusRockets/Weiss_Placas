@@ -1,0 +1,110 @@
+(footprint "BPT-24X"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Piezo Buzzer 12V\n\nSource: Http:www.be-star.com")
+	(property "Reference" "REF**"
+		(at 2.54 -12.065 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5244b946-0ec7-48ec-82de-c9107db5dccd")
+		(effects
+			(font
+				(size 1.6002 1.6002)
+				(thickness 0.1778)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "BPT-24X"
+		(at -5.715 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa2a3802-1722-4d95-939c-0854e3cd1476")
+		(effects
+			(font
+				(size 1.6002 1.6002)
+				(thickness 0.1778)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12f70cc3-1dd9-489f-a710-fb3bd6f5ad1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c19749f5-8d7e-43be-9668-06f8099d6970")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0d2f2ba7-c960-4981-b144-1421b8d688d2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10.668 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c6c0e62-5eb5-4130-8579-2587beee0b1f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11.9 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f583263b-d519-4ca7-8dac-3c752b131ce2")
+	)
+	(pad "+" thru_hole circle
+		(at 7.5 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "03839a31-4aee-4816-bd05-c7c44bd2928d")
+	)
+	(pad "-" thru_hole circle
+		(at -7.5 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "79747844-ecb4-42e0-ad16-61832def82d2")
+	)
+	(embedded_fonts no)
+)

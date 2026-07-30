@@ -1,0 +1,100 @@
+(footprint "EFBRD22C41"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Piezoelectric Acoustic Transducer\n\nSource: Panbasonic .. 2SC1685.pdf")
+	(property "Reference" "REF**"
+		(at -3.175 -3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e561841c-279c-45fa-ba95-d3b07d9be608")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "EFBRD22C41"
+		(at -3.81 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "205f4029-95fe-4a50-b3c6-379f4a7b832b")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "907e4ebc-e4ac-4299-959e-72330a39fa15")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fec278ba-2404-4160-bca0-6cb4cffc927e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 10.9 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "50ed613f-2ed2-4a31-b439-8bd65520390a")
+	)
+	(fp_poly
+		(pts
+			(xy 9.675 0.8) (xy 10.85 0.8) (xy 10.85 -0.8) (xy 9.675 -0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ea55d5b2-48c5-496e-92eb-22ab653760d3")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.6764 1.6764)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ce73ac93-eee9-405e-9cce-58a0798ea1d4")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6764 1.6764)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f28b66b6-c3e8-4de1-ae4e-79525c579a2f")
+	)
+	(embedded_fonts no)
+)

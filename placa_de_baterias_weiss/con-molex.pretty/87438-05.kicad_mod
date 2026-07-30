@@ -1,0 +1,242 @@
+(footprint "87438-05"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1.50mm Pitch Pico-SPOX™ Wire-to-Board Header, Surface Mount, Right Angle, Shrouded, Nylon, 5 Circuits, Embossed Tape on Reel, Beige\n\nDatasheet ")
+	(property "Reference" "REF**"
+		(at -3.75 -5.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab69bdda-8dc0-470c-9f45-37450d630769")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "87438-05"
+		(at -3.75 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16487733-110e-45ef-b07a-ad71c3e5458d")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bdbc389-f361-41a6-aff0-d1c8c25dc815")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "098ec619-d917-45fc-b982-2807a9d80b2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.8 -3)
+		(end -4.05 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "665adb40-5a21-4ad1-8ce7-bc20f84ea374")
+	)
+	(fp_line
+		(start -4.8 3)
+		(end -4.8 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efed5762-e98f-4ff9-bc18-78087ef811c1")
+	)
+	(fp_line
+		(start -4.05 -4.3)
+		(end 0.75 -4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8049a216-ba94-4bdd-9780-933553e023e8")
+	)
+	(fp_line
+		(start -4.05 -3)
+		(end -4.05 -4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "426c207f-4261-4315-8cf0-ca0e91990343")
+	)
+	(fp_line
+		(start -4.05 3)
+		(end -4.8 3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77e87ee5-12bb-49ad-a318-8aa567ff00c2")
+	)
+	(fp_line
+		(start -4.05 4.3)
+		(end -4.05 3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3264d2c-7d5d-45c1-91b5-5c536b41e912")
+	)
+	(fp_line
+		(start 0.75 4.3)
+		(end -4.05 4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e360164-469f-4e6f-abe7-d8a70047e6f5")
+	)
+	(fp_line
+		(start 0.75 -4.3)
+		(end 0.75 4.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb3cb281-66d1-49d0-a7ef-627f8695b912")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 -2.775) (xy 2.85 -2.775) (xy 2.85 -3.225) (xy 0.8 -3.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ad58dbfb-43dc-4190-b847-723bc9981089")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 -1.275) (xy 2.85 -1.275) (xy 2.85 -1.725) (xy 0.8 -1.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3f9eb466-1e83-4cce-b04e-b46aaea0aaa6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 0.225) (xy 2.85 0.225) (xy 2.85 -0.225) (xy 0.8 -0.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4f56ac13-43bc-4d7a-9cc3-9f6cdbaa090f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 1.725) (xy 2.85 1.725) (xy 2.85 1.275) (xy 0.8 1.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "bfa12292-41c6-41ff-8a7f-dd42ddaba0a4")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 3.225) (xy 2.85 3.225) (xy 2.85 2.775) (xy 0.8 2.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "044cd789-d419-4ebc-ba66-d0cb3fdd763e")
+	)
+	(pad "1" smd rect
+		(at 0 -3)
+		(size 7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "199ed077-4105-4b93-8a2d-12dbe6a644cc")
+	)
+	(pad "2" smd rect
+		(at 0 -1.5)
+		(size 7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "eb412dfc-09b9-4101-a691-f6d05909d62f")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "716d3c6f-ae9b-4bac-b176-de00cdcd9907")
+	)
+	(pad "4" smd rect
+		(at 0 1.5)
+		(size 7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f49e6260-04de-4899-8170-e56bface2e78")
+	)
+	(pad "5" smd rect
+		(at 0 3)
+		(size 7 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "ce9eff76-2d39-4614-85a2-38893a7772ee")
+	)
+	(embedded_fonts no)
+)

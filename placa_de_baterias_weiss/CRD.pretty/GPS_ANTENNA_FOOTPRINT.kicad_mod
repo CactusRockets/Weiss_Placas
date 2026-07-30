@@ -1,0 +1,103 @@
+(footprint "GPS_ANTENNA_FOOTPRINT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9d1a6607-d211-4766-ba9c-e1550b8f5021")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c9d88b05-5e43-4b52-a033-4a17fce2f3af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f9c81d0-4867-4cd3-b056-26420afef5f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "903d459f-6c12-419f-a00f-a4c338ba8617")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -12.7 -5.95)
+		(end 12.3 -5.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70e9a4f1-501b-4d3c-b850-88ec46d346c0")
+	)
+	(fp_line
+		(start -12.7 19.05)
+		(end -12.7 -5.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3045cf0-4bb4-4cc4-b5e0-5763fcc4312d")
+	)
+	(fp_line
+		(start 12.3 -5.95)
+		(end 12.3 19.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "895dde90-3951-4df1-a500-aa900b373d36")
+	)
+	(fp_line
+		(start 12.3 19.05)
+		(end -12.7 19.05)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be2a28c8-03f9-4263-9e59-9f98d4c6afa7")
+	)
+	(fp_text user "GPS antenna"
+		(at -5.588 -3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eebc27ee-fcc9-40b8-9ff1-eb87abe28a9b")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

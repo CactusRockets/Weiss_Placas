@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Esquema-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Esquema-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "CRD") (type "KiCad") (uri "${KIPRJMOD}/CRD.kicad_sym") (options "") (descr ""))
+	(lib (name "con-molex") (type "KiCad") (uri "${KIPRJMOD}/con-molex.kicad_sym") (options "") (descr ""))
 )
