@@ -5,4 +5,5 @@
 	(lib (name "optocoupler") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/optocoupler.pretty/") (options "") (descr ""))
 	(lib (name "supply1") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/supply1.pretty/") (options "") (descr ""))
 	(lib (name "transistor-fet") (type "KiCad") (uri "${KIPRJMOD}/ArquivosPretty/transistor-fet.pretty/") (options "") (descr ""))
+	(lib (name "CompAcionamento") (type "KiCad") (uri "${KIPRJMOD}/CompAcionamento.pretty") (options "") (descr ""))
 )

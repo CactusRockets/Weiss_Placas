@@ -87,13 +87,13 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "01805cee-90cd-4673-8796-8d208ecc1ee4")
 		(at 126.2861 84.7091)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R1"
-			(at -3.048 -1.524 0)
+			(at 2.032 2.286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1096da25-7a0c-43f7-a49f-150cc60a171b")
@@ -372,35 +372,46 @@
 			(uuid "4b633a55-e8ac-4abf-9f16-0ba7dea40a13")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "0dc13346-4355-46bc-95f9-c4a787261328")
 		(at 141.5261 126.6191 180)
 		(property "Reference" "UNK3.3-BUZ0"
-			(at -1.27 5.461 0)
+			(at 0 5.461 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "db178db3-4a8c-461e-b12d-7d92f71a5b6e")
 			(effects
 				(font
 					(size 0.762 0.762)
-					(thickness 0.254)
+					(thickness 0.1905)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "JST2.54X2P"
-			(at -1.27 4.064 0)
+			(at -1.27 4.064 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "378928ea-3550-4758-ba39-45621f0c2ffd")
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -602,35 +613,46 @@
 			(uuid "1bf78248-f4c7-4d2b-8f40-b718e8382554")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "2df4e89c-ec55-442d-86c7-9d4fa1e38ebd")
 		(at 123.7461 126.6191 180)
 		(property "Reference" "S1-S2"
-			(at -1.27 5.461 0)
+			(at 0 5.461 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d83ea39c-d9d9-4116-a322-f7e2cfd2704e")
 			(effects
 				(font
 					(size 0.762 0.762)
-					(thickness 0.254)
+					(thickness 0.1905)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "JST2.54X2P"
-			(at -1.27 4.064 0)
+			(at -1.27 4.064 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e97b785-5f55-46da-ad1f-7475f6631424")
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -832,14 +854,25 @@
 			(uuid "22f8dbf3-a7e7-45b2-a9cf-c4e9672b452d")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "319ada8a-a49c-4dbc-83e8-e2ca7081dae7")
 		(at 135.8111 89.7891 -90)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R5"
-			(at -3.048 -1.524 90)
+			(at 2.032 2.286 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "42759ad4-5902-43af-8e50-2c688578a70b")
@@ -848,11 +881,11 @@
 					(size 0.4953 0.4953)
 					(thickness 0.1143)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "1k"
-			(at -2.2606 0.635 90)
+			(at -2.2606 0.635 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aa89a87a-2e10-4ec7-8871-ec88c09d05ef")
@@ -861,7 +894,7 @@
 					(size 1.1557 1.1557)
 					(thickness 0.1143)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -1118,8 +1151,19 @@
 			(uuid "7fbac56e-1b33-412c-9e83-547274e0de7b")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "TO220_396"
+	(footprint "CompAcionamento:IRF540"
 		(layer "F.Cu")
 		(uuid "4789ae5e-4e90-47cc-8dc2-765ea0464827")
 		(at 160.5761 107.5691)
@@ -1635,8 +1679,19 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Mosfet IRF540.step"
+			(offset
+				(xyz 0 -5.5 12.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
-	(footprint "TO220_396"
+	(footprint "CompAcionamento:IRF540"
 		(layer "F.Cu")
 		(uuid "59439b61-5c4b-4ae7-b920-8df92741affe")
 		(at 147.8761 107.5691)
@@ -2221,19 +2276,19 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "5eee36d8-3dcb-4643-b1d6-ad171d99c797")
 		(at 162.1001 125.3491)
 		(property "Reference" "SK1-SK2"
-			(at -1.27 5.461 0)
+			(at 0 5.461 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c8be4d93-a7af-42f0-896f-f7520819c7c4")
 			(effects
 				(font
 					(size 0.762 0.762)
-					(thickness 0.254)
+					(thickness 0.1905)
 				)
 				(justify left bottom)
 			)
@@ -2246,7 +2301,7 @@
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
 				(justify left bottom)
 			)
@@ -2450,20 +2505,31 @@
 			(uuid "4efcc6d1-b9bb-48ab-ae5f-e5889609e01a")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "5fb26db2-77c0-4ee3-a8b6-bd1057928f04")
 		(at 173.2761 85.9791)
 		(property "Reference" "SKIB1.0"
-			(at -1.27 -3.429 0)
+			(at 0 5.461 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2461cc78-91d3-4ec1-b087-55476bb5e270")
 			(effects
 				(font
-					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(size 0.762 0.762)
+					(thickness 0.1905)
 				)
 				(justify left bottom)
 			)
@@ -2476,7 +2542,7 @@
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
 				(justify left bottom)
 			)
@@ -2680,27 +2746,38 @@
 			(uuid "ddc93f13-7d0b-4bc2-887a-d93df2b9d656")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "5fd8e9e6-6528-4dc1-937a-b1eaf0120067")
 		(at 136.3191 108.4581 -90)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R7"
-			(at -3.048 -1.524 90)
+			(at 2.032 2.286 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1f3f5b9a-33f8-4a72-8869-5eb5af88f87c")
 			(effects
 				(font
-					(size 1.1557 1.1557)
+					(size 0.4953 0.4953)
 					(thickness 0.1143)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "1k"
-			(at -2.2606 0.635 90)
+			(at -2.2606 0.635 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f210d35a-5dac-4b7d-a5cb-cd4f9ad16cfe")
@@ -2709,7 +2786,7 @@
 					(size 1.1557 1.1557)
 					(thickness 0.1143)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -2966,14 +3043,25 @@
 			(uuid "c5b347c3-ba67-4134-ac10-8116c77cb73a")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "6bc09d93-9a81-4a44-a89b-b08ea67e3c95")
 		(at 127.5561 103.1241)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R6"
-			(at -3.048 -1.524 0)
+			(at 2.032 2.286 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "627afc53-f780-4425-8c26-ac3338f2a9d7")
@@ -3252,8 +3340,19 @@
 			(uuid "0c52db28-4648-4b3c-a285-270269a03d6d")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "DIL04_320"
+	(footprint "CompAcionamento:PC817"
 		(layer "F.Cu")
 		(uuid "6fb15e96-e926-4b3b-beb3-99778643ba7a")
 		(at 126.2861 108.8391 -90)
@@ -3421,6 +3520,17 @@
 			(uuid "1c522737-4ece-4198-91b3-b86bf4468561")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/PC817_DIP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "dummyfp1"
 		(layer "F.Cu")
@@ -3479,34 +3589,34 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "82dbd091-7c4e-4fc1-a013-be7aafabd3a2")
 		(at 164.2591 85.9791 180)
 		(property "Reference" "SKIB1.1"
-			(at -1.27 -3.429 0)
+			(at 0 5.461 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4a4f1bad-31e2-49fc-866b-3e6a3645e1de")
 			(effects
 				(font
-					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(size 0.762 0.762)
+					(thickness 0.1905)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "JST2.54X2P"
-			(at -1.27 4.064 0)
+			(at -1.27 4.064 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea337527-7857-4eeb-86ce-808ffb4ab364")
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -3708,20 +3818,31 @@
 			(uuid "c5e62582-8107-473e-9a70-2d553147fdc2")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "84338417-1b40-41c6-859b-22ea7b7b7d95")
 		(at 170.7361 125.3491)
 		(property "Reference" "BATERIA0"
-			(at -1.27 -3.429 0)
+			(at 0 5.461 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "de4e89f3-b69a-4257-b461-4e85bf303c9e")
 			(effects
 				(font
-					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(size 0.762 0.762)
+					(thickness 0.1905)
 				)
 				(justify left bottom)
 			)
@@ -3734,7 +3855,7 @@
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
 				(justify left bottom)
 			)
@@ -3938,8 +4059,19 @@
 			(uuid "0874fb8e-4272-4db1-b2c1-7685e9b2c7d7")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "DIL04_320"
+	(footprint "CompAcionamento:PC817"
 		(layer "F.Cu")
 		(uuid "941124e7-bf03-4af8-bc89-ba6d85cdd01f")
 		(at 126.2861 89.7891 -90)
@@ -4107,6 +4239,17 @@
 			(uuid "58709b8c-33f1-4db4-9049-4f7d7017cb99")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/PC817_DIP.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "dummyfp4"
 		(layer "F.Cu")
@@ -4222,7 +4365,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "b1f38d20-9ffc-44c6-b13c-620f3e77653c")
 		(at 132.6361 126.6191)
@@ -4234,7 +4377,7 @@
 			(effects
 				(font
 					(size 0.762 0.762)
-					(thickness 0.254)
+					(thickness 0.1905)
 				)
 				(justify left bottom)
 			)
@@ -4247,7 +4390,7 @@
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
 				(justify left bottom)
 			)
@@ -4451,6 +4594,17 @@
 			(uuid "8d052422-932e-4c95-8fea-c71b0f340d76")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
 	(footprint "dummyfp0"
 		(layer "F.Cu")
@@ -4509,13 +4663,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "cab091ea-a3b4-4904-a991-55a42e034712")
 		(at 155.2421 126.1111 90)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R2"
-			(at -3.048 -1.524 90)
+			(at 2.032 2.286 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a342d65d-02d0-4b53-a0f1-0468ad150d14")
@@ -4794,6 +4948,17 @@
 			(uuid "909db185-0b78-4971-bde8-bc4d2f7318b9")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "dummyfp5"
 		(layer "F.Cu")
@@ -4852,7 +5017,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LED5MM"
+	(footprint "CompAcionamento:LED_5MM"
 		(layer "F.Cu")
 		(uuid "e9694540-93ca-4722-aa90-bd9e12e538be")
 		(at 129.3341 115.9511 180)
@@ -5027,20 +5192,31 @@
 			(uuid "1ce32560-8bc6-4753-a019-8ecc1652adb5")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/LED 3mm (Red).step"
+			(offset
+				(xyz 0 -2.75 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
-	(footprint "JST2.54X2P_FOOTPRINT_39051337"
+	(footprint "CompAcionamento:JST2.54X2P_FOOTPRINT_39051337"
 		(layer "F.Cu")
 		(uuid "eb068dd0-dea4-4168-922d-56257cfae8e2")
 		(at 155.4961 85.9791)
 		(property "Reference" "SKIB2"
-			(at -1.27 -3.429 0)
+			(at 0 5.461 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e09a1ccd-0865-4184-86fe-465d691ee7ec")
 			(effects
 				(font
-					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(size 0.762 0.762)
+					(thickness 0.1905)
 				)
 				(justify left bottom)
 			)
@@ -5053,7 +5229,7 @@
 			(effects
 				(font
 					(size 0.3556 0.3556)
-					(thickness 0.254)
+					(thickness 0.0889)
 				)
 				(justify left bottom)
 			)
@@ -5257,14 +5433,25 @@
 			(uuid "140673a6-d5c7-45d6-ada8-0a0fb53b2544")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/JST2.54X2P.step"
+			(offset
+				(xyz 28.75 28.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
-	(footprint "LED5MM"
+	(footprint "CompAcionamento:LED_5MM"
 		(layer "F.Cu")
 		(uuid "eb82ac45-e649-4b2d-bd2d-f27dbf0367f2")
 		(at 129.3341 97.0281 180)
 		(descr "LED\n\n5 mm, round")
 		(property "Reference" "LSKIB1"
-			(at -1.905 -1.8034 0)
+			(at 4.445 -0.5334 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2d3303d8-2161-4dc1-b1f8-36aa55612768")
@@ -5433,14 +5620,25 @@
 			(uuid "985cb531-6a10-46d7-bd9b-f9fe8799675c")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/LED 3mm (Red).step"
+			(offset
+				(xyz 0 -2.75 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "f29b5a20-277f-4e4d-a71f-f93ff1db4876")
 		(at 146.8601 125.9841 90)
 		(descr "RESISTOR\n\ntype 0207, grid 10 mm")
 		(property "Reference" "R4"
-			(at -3.048 -1.524 90)
+			(at 2.032 2.286 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "06eef572-6b8d-4a6b-abe6-ee7fd7136db3")
@@ -5719,8 +5917,19 @@
 			(uuid "a30c9b30-9d40-4fb1-8d15-59ace7f0cf9c")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "TO220_396"
+	(footprint "CompAcionamento:IRF540"
 		(layer "F.Cu")
 		(uuid "f4cadf61-dd2f-481a-8184-d3acd041b4db")
 		(at 173.2761 107.5691)
@@ -6236,8 +6445,19 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Mosfet IRF540.step"
+			(offset
+				(xyz 0 -5.5 12.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
-	(footprint "0207_10"
+	(footprint "CompAcionamento:Resistor"
 		(layer "F.Cu")
 		(uuid "f86a3c89-09c9-4d46-915d-3e7fbf88f08f")
 		(at 152.4481 126.1111 90)
@@ -6522,8 +6742,19 @@
 			(uuid "10260247-3bdd-42ac-8879-aebb7761da40")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/Resistor.STEP"
+			(offset
+				(xyz -3.5 0 1.5)
+			)
+			(scale
+				(xyz 1.1 1.1 1.1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
-	(footprint "buzzer:AL11P"
+	(footprint "CompAcionamento:BUZZER"
 		(layer "F.Cu")
 		(uuid "fb70c783-8c66-4102-815b-44a9830a71ec")
 		(at 144.5741 85.8521 90)
@@ -6541,7 +6772,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AL11P"
+		(property "Value" "BUZZER"
 			(at -3.81 3.175 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6639,6 +6870,17 @@
 			(uuid "266da4c0-8659-4a2d-9c49-c9d22a78f025")
 		)
 		(embedded_fonts no)
+		(model "${MODELOS_3D_CRD}/PASSIVE_5V_BUZZER.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(gr_line
 		(start 113.5861 75.7681)
