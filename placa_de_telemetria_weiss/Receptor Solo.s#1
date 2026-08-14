@@ -7042,6 +7042,18 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="797.56" y1="-462.28" x2="797.56" y2="-459.74" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3V3"/>
+<wire x1="812.8" y1="-421.64" x2="815.34" y2="-421.64" width="0.1524" layer="91"/>
+<label x="817.88" y="-421.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="LORA_E22400T30D" pin="VCC"/>
+<wire x1="759.46" y1="-363.22" x2="756.92" y2="-363.22" width="0.1524" layer="91"/>
+<label x="749.3" y="-363.22" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="AUX" class="0">
 <segment>
 <pinref part="U$2" gate="LORA_E22400T30D" pin="AUX"/>
@@ -7112,18 +7124,6 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="U$2" gate="LORA_E22400T30D" pin="M1"/>
 <wire x1="759.46" y1="-353.06" x2="756.92" y2="-353.06" width="0.1524" layer="91"/>
 <label x="746.76" y="-353.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="777.24" y1="-421.64" x2="774.7" y2="-421.64" width="0.1524" layer="91"/>
-<label x="769.62" y="-421.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="LORA_E22400T30D" pin="VCC"/>
-<wire x1="759.46" y1="-363.22" x2="756.92" y2="-363.22" width="0.1524" layer="91"/>
-<label x="749.3" y="-363.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

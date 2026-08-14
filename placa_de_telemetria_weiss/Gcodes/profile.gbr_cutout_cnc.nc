@@ -4,8 +4,32 @@
 (Type: G-code from Geometry)
 (Units: MM)
 
-(Created on Thursday, 06 August 2026 at 19:28)
+(Created on Friday, 14 August 2026 at 11:27)
 
+(This preprocessor is the default preprocessor used by FlatCAM.)
+(It is made to work with MACH3 compatible motion controllers.)
+
+(TOOL DIAMETER: 0.031 mm)
+(Feedrate_XY: 700.0 mm/min)
+(Feedrate_Z: 120.0 mm/min)
+(Feedrate rapids 1500.0 mm/min)
+
+(Z_Cut: -1.8 mm)
+(DepthPerCut: 0.6 mm <=>3 passes)
+(Z_Move: 1.0 mm)
+(Z Start: None mm)
+(Z End: 15.0 mm)
+(X,Y End: None mm)
+(Steps per circle: 64)
+(Preprocessor Geometry: default)
+
+(X range:    0.0000 ...   63.2151  mm)
+(Y range:    0.0000 ...   85.5521  mm)
+
+(Spindle Speed: 8000.0 RPM)
+G21
+G90
+G94
 
 G01 F700.00
 
@@ -366,7 +390,7 @@ G01 X63.2071 Y0.5593
 G01 X63.2028 Y0.5343
 G01 X63.1972 Y0.5095
 G01 X63.1875 Y0.4731
-G01 X63.1795 Y0.4490
+G01 X63.1754 Y0.4374
 G01 X63.1663 Y0.4138
 G01 X63.1507 Y0.3794
 G01 X63.1393 Y0.3567
@@ -422,7 +446,7 @@ G01 X63.1205 Y0.3241
 G01 X63.1393 Y0.3567
 G01 X63.1507 Y0.3794
 G01 X63.1663 Y0.4138
-G01 X63.1795 Y0.4490
+G01 X63.1754 Y0.4374
 G01 X63.1875 Y0.4731
 G01 X63.1972 Y0.5095
 G01 X63.2028 Y0.5343
@@ -442,7 +466,7 @@ G01 X63.2071 Y0.5593
 G01 X63.2028 Y0.5343
 G01 X63.1972 Y0.5095
 G01 X63.1875 Y0.4731
-G01 X63.1795 Y0.4490
+G01 X63.1754 Y0.4374
 G01 X63.1663 Y0.4138
 G01 X63.1507 Y0.3794
 G01 X63.1393 Y0.3567
